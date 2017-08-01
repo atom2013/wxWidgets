@@ -58,7 +58,7 @@
 #include <limits.h>
 
 // MinGW in strict ANSI mode doesn't define those in its limits.h.
-#if defined(wxNEEDS_STRICT_ANSI_WORKAROUNDS) && !defined(LLONG_MAX)
+#if (defined(wxNEEDS_STRICT_ANSI_WORKAROUNDS) || defined(__VISUALC6__)) && !defined(LLONG_MAX)
     #define LLONG_MAX 9223372036854775807LL
     #define LLONG_MIN (-LLONG_MAX - 1)
     #define ULLONG_MAX (2ULL*LLONG_MAX + 1)

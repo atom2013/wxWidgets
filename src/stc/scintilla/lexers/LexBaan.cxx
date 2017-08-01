@@ -9,6 +9,7 @@
 // C standard library
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 // C++ wrappers of C standard library
 #include <cassert>

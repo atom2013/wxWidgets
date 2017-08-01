@@ -178,10 +178,12 @@ extern unsigned long android_wcstoul(const wchar_t *nptr, wchar_t **endptr, int 
 #endif
 
 #ifdef __VISUALC__
+#ifndef __VISUALC6__
     #define wxCRT_StrtollA   _strtoi64
     #define wxCRT_StrtoullA  _strtoui64
     #define wxCRT_StrtollW   _wcstoi64
     #define wxCRT_StrtoullW  _wcstoui64
+#endif
 #else
     /* Both of these functions are implemented in C++11 compilers */
     #if defined(__cplusplus) && __cplusplus >= 201103L

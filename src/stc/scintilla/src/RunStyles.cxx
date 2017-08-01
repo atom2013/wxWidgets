@@ -5,7 +5,7 @@
 // The License.txt file describes the conditions under which this software may be distributed.
 
 #include <stdlib.h>
-#include <string.h>
+#include <string>
 #include <stdio.h>
 #include <stdarg.h>
 

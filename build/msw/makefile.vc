@@ -5677,7 +5677,7 @@ __DEBUGINFO =
 __DEBUGINFO = 
 !endif
 !if "$(DEBUG_INFO)" == "1"
-__DEBUGINFO = /Zi
+__DEBUGINFO = /Zd
 !endif
 !if "$(BUILD)" == "debug" && "$(DEBUG_RUNTIME_LIBS)" == "default"
 ____DEBUGRUNTIME = /D_DEBUG

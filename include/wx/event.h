@@ -33,7 +33,7 @@
 
 // Currently VC7 is known to not be able to compile CallAfter() code, so
 // disable it for it (FIXME-VC7).
-#if !defined(__VISUALC__) || wxCHECK_VISUALC_VERSION(8)
+#if !defined(__VISUALC__) || wxCHECK_VISUALC_VERSION(8) || defined(__VISUALC6__)
     #include "wx/meta/removeref.h"
 
     #define wxHAS_CALL_AFTER

@@ -1,0 +1,797 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "adv_Shared"=.\wx_vc6_adv_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "adv_Static"=.\wx_vc6_adv_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "aui_Shared"=.\wx_vc6_aui_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name adv_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "aui_Static"=.\wx_vc6_aui_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "base_Shared"=.\wx_vc6_base_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "base_Static"=.\wx_vc6_base_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "core_Shared"=.\wx_vc6_core_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "core_Static"=.\wx_vc6_core_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "gl_Shared"=.\wx_vc6_gl_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxjpeg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "gl_Static"=.\wx_vc6_gl_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "html_Shared"=.\wx_vc6_html_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxjpeg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "html_Static"=.\wx_vc6_html_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "media_Shared"=.\wx_vc6_media_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxjpeg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "media_Static"=.\wx_vc6_media_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "net_Shared"=.\wx_vc6_net_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "net_Static"=.\wx_vc6_net_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "propgrid_Shared"=.\wx_vc6_propgrid_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name adv_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxjpeg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "propgrid_Static"=.\wx_vc6_propgrid_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "qa_Shared"=.\wx_vc6_qa_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxjpeg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name xml_Shared
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "qa_Static"=.\wx_vc6_qa_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ribbon_Shared"=.\wx_vc6_ribbon_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name adv_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxjpeg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ribbon_Static"=.\wx_vc6_ribbon_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "richtext_Shared"=.\wx_vc6_richtext_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name adv_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name html_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxjpeg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name xml_Shared
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "richtext_Static"=.\wx_vc6_richtext_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "stc_Shared"=.\wx_vc6_stc_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxjpeg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxscintilla
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "stc_Static"=.\wx_vc6_stc_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "webview_Shared"=.\wx_vc6_webview_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxjpeg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "webview_Static"=.\wx_vc6_webview_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "wxexpat"=.\wx_vc6_wxexpat.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "wxjpeg"=.\wx_vc6_wxjpeg.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "wxpng"=.\wx_vc6_wxpng.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "wxregex"=.\wx_vc6_wxregex.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "wxscintilla"=.\wx_vc6_wxscintilla.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "wxtiff"=.\wx_vc6_wxtiff.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "wxzlib"=.\wx_vc6_wxzlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "xml_Shared"=.\wx_vc6_xml_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "xml_Static"=.\wx_vc6_xml_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "xrc_Shared"=.\wx_vc6_xrc_Shared.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name adv_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name base_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name html_Shared
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxexpat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxjpeg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxregex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxtiff
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wxzlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name xml_Shared
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "xrc_Static"=.\wx_vc6_xrc_Static.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

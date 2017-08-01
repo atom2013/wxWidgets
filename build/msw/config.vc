@@ -11,10 +11,10 @@
 # -------------------------------------------------------------------------
 
 # C compiler 
-CC = cl
+CC = icl
 
 # C++ compiler 
-CXX = cl
+CXX = icl
 
 # Standard flags for CC 
 CFLAGS = 
@@ -23,7 +23,7 @@ CFLAGS =
 CXXFLAGS = 
 
 # Standard preprocessor flags (common for CC and CXX) 
-CPPFLAGS = 
+CPPFLAGS = /D_STLP_NEW_PLATFORM_SDK /Zc:forScope
 
 # Standard linker flags 
 LDFLAGS = 
