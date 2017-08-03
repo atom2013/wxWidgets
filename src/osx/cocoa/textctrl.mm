@@ -716,6 +716,7 @@ wxNSTextViewControl::wxNSTextViewControl( wxTextCtrl *wxPeer, WXWidget w, long s
 
     [m_scrollView setHasVerticalScroller:YES];
     [m_scrollView setHasHorizontalScroller:hasHScroll];
+    [m_scrollView setHasVerticalScroller:(style & wxTE_NO_VSCROLL)? NO: YES];
     NSSize contentSize = [m_scrollView contentSize];
     NSRect viewFrame = NSMakeRect(
             0, 0,
@@ -1397,10 +1398,7 @@ wxWidgetImplType* wxWidgetImpl::CreateTextControl( wxTextCtrl* wxpeer,
         }
                 
         NSTextFieldCell* cell = [v cell];
-        [cell setScrollable:YES];
-        // TODO: Remove if we definitely are sure, it's not needed
-        // as setting scrolling to yes, should turn off any wrapping
-        // [cell setLineBreakMode:NSLineBreakByClipping]; 
+        [cell setUsesSingleLineMode:YES];
 
         c = new wxNSTextFieldControl( wxpeer, wxpeer, v );
         
