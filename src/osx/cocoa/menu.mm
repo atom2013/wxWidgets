@@ -239,6 +239,9 @@ public :
     {
         win->ScreenToClient( &x , &y ) ;
         NSView *view = win->GetPeer()->GetWXWidget();
+        // Turn off auto-enable; it caused popup menus inside of dialogs
+        // to be entirely disabled.
+        DisableAutoEnable();
         [m_osxMenu popUpMenuPositioningItem:nil atLocation:NSMakePoint(x, y) inView:view];
     }
     
@@ -249,6 +252,23 @@ public :
         x = r.origin.x;
         y = r.origin.y;
         width = r.size.width;
+    }
+    
+    void DisableAutoEnable()
+    {
+        [m_osxMenu setAutoenablesItems:NO];
+        
+        wxMenu* menu = GetWXPeer();
+        for ( auto item : menu->GetMenuItems() )
+        {
+            if ( item->IsSubMenu() )
+            {
+                wxMenuCocoaImpl* subimpl = dynamic_cast<wxMenuCocoaImpl*>(item->GetSubMenu()->GetPeer());
+                if ( subimpl )
+                    subimpl->DisableAutoEnable();
+            }
+        }
+
     }
     
     WXHMENU GetHMenu() wxOVERRIDE { return m_osxMenu; }
